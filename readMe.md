@@ -26,11 +26,11 @@ SpringBoot Configuration ->
 				    spring.activemq.pool.enabled=false
 				    spring.activemq.broker-url=tcp://localhost:61616)
 
-	create Config class and add codes that in config.txt file 
+	create Config class
 
-	create ProducerResource class as restcontroller and add codes that in producerResource.txt file
-
-	create Consumer class as listener and add codes that in consumer.txt file
+	create ProducerResource class as restcontroller 
+	
+	create Consumer class as listener and 
 	
 	endpoint-> localhost:8080/rest/publish/testMessage    (testMessage: whatever you want to write)
 
