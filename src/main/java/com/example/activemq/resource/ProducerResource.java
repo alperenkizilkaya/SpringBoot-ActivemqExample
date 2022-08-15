@@ -21,7 +21,6 @@ public class ProducerResource {
         this.queue = queue;
     }
 
-    @Qualifier("standalone.queue")
     @GetMapping("/{message}")
     public String publish (@PathVariable("message")
                                final String message){
