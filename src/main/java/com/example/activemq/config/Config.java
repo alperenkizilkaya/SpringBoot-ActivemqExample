@@ -13,7 +13,7 @@ import javax.jms.Queue;
 public class Config {
 
     @Value("${spring.activemq.broker-url}")
-    private String brokerUrl = "tcp://localhost:61616";
+    private String brokerUrl;
 
     @Bean
     public Queue queue(){
